@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, ExternalLink } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 
 const BookSection = () => {
   return (
@@ -18,7 +18,7 @@ const BookSection = () => {
             {/* Map */}
             <div className="rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.8!2d144.978!3d-37.78!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ2JzQ4LjAiUyAxNDTCsDU4JzQxLjAiRQ!5e0!3m2!1sen!2sau!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0937462289806!2d144.9742!3d-37.7833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642f4b0d2e5b1%3A0x5045675218ce6e0!2s460%20Brunswick%20St%2C%20Fitzroy%20North%20VIC%203068!5e0!3m2!1sen!2sau!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -41,7 +41,7 @@ const BookSection = () => {
                   <div>
                     <p className="text-foreground font-medium">Address</p>
                     <p className="text-muted-foreground">
-                      379 St Georges Road, Fitzroy North VIC 3068
+                      460 Brunswick St, Fitzroy North VIC 3068
                     </p>
                   </div>
                 </div>
@@ -57,8 +57,34 @@ const BookSection = () => {
                       (03) 9125 3991
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">
+                      Fax: (03) 9125 3992
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-1">
                       Ask for Dr Premila's skin check
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <Mail className="h-5 w-5 text-sage-dark mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground font-medium">Email</p>
+                    <a
+                      href="mailto:reception@fitzroynorthmedical.com.au"
+                      className="text-sage-dark hover:underline break-all"
+                    >
+                      reception@fitzroynorthmedical.com.au
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <Clock className="h-5 w-5 text-sage-dark mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground font-medium">Opening Hours</p>
+                    <p className="text-sm text-muted-foreground">Mon–Fri 9am – 6pm</p>
+                    <p className="text-sm text-muted-foreground">Sat 9am – 12pm</p>
+                    <p className="text-sm text-muted-foreground">Sun Closed</p>
                   </div>
                 </div>
               </div>
@@ -69,7 +95,7 @@ const BookSection = () => {
                 </Button>
                 <Button variant="outline" className="w-full" asChild>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=379+St+Georges+Rd+Fitzroy+North+VIC+3068"
+                    href="https://www.google.com/maps/dir/?api=1&destination=460+Brunswick+St+Fitzroy+North+VIC+3068"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

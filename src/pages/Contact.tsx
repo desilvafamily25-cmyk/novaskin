@@ -55,6 +55,7 @@ const Contact = () => {
                       <a href="tel:0391253991" className="text-foreground hover:text-sage-dark">
                         (03) 9125 3991
                       </a>
+                      <p className="text-sm text-muted-foreground">Fax: (03) 9125 3992</p>
                     </div>
                   </div>
 
@@ -68,6 +69,16 @@ const Contact = () => {
                       >
                         reception@fitzroynorthmedical.com.au
                       </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Clock className="h-5 w-5 text-sage-dark mt-1 flex-shrink-0" />
+                    <div>
+                      <p className="font-semibold text-charcoal">Opening Hours</p>
+                      <p className="text-sm text-foreground">Mon–Fri 9am – 6pm</p>
+                      <p className="text-sm text-foreground">Sat 9am – 12pm</p>
+                      <p className="text-sm text-foreground">Sun Closed</p>
                     </div>
                   </div>
                 </div>
