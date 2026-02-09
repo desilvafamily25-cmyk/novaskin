@@ -80,7 +80,13 @@ const Navigation = () => {
               <Search className="h-5 w-5" />
             </Button>
             <Button variant="cta" asChild>
-              <Link to="/contact">Book Now</Link>
+              <a 
+                href="https://www.hotdoc.com.au/medical-centres/fitzroy-north-VIC-3068/fitzroy-north-medical-clinic/doctors/dr-premila-hewage-skin-checks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book Now
+              </a>
             </Button>
           </div>
 
@@ -153,7 +159,13 @@ const Navigation = () => {
                 </Link>
               ))}
               <Button variant="cta" asChild className="w-full">
-                <Link to="/contact">Book Now</Link>
+                <a 
+                  href="https://www.hotdoc.com.au/medical-centres/fitzroy-north-VIC-3068/fitzroy-north-medical-clinic/doctors/dr-premila-hewage-skin-checks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Book Now
+                </a>
               </Button>
             </div>
           </div>
