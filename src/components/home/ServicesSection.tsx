@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import fullBodyCheck from "@/assets/full-body-check.jpg";
+import fullBodyCheck from "@/assets/skin-check-real.png";
 import moleAssessment from "@/assets/mole-assessment.jpg";
 import medicalSkincare from "@/assets/medical-skincare.jpg";
 
