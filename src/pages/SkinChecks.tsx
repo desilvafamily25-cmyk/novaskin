@@ -258,7 +258,7 @@ const SkinChecks = () => {
                 <AccordionTrigger>Is the check covered by Medicare?</AccordionTrigger>
                 <AccordionContent>
                   Skin cancer checks are private services. However, some patients may be eligible 
-                  for bulk billing (pensioners, children under 16, healthcare card holders at HEMAC). 
+                  for bulk billing (pensioners, children under 16, healthcare card holders). 
                   Private health insurance may provide rebates depending on your level of cover. 
                   Please check with your insurer.
                 </AccordionContent>
